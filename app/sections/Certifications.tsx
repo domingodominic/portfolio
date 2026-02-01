@@ -38,6 +38,12 @@ const certifications = [
     issuer: "Issued by pearson",
     image: cybersecurity,
   },
+  {
+    title: "Cisco Certified Technician",
+    date: "June, 2023",
+    issuer: "Issued by pearson",
+    image: technician,
+  },
 ];
 
 export default function Certifications() {

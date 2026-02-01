@@ -18,7 +18,7 @@ import {
 import ThemeToggle from "./ThemeToggle";
 
 const socials = [
-  { name: "Home", icon: Home, href: "/" },
+  { name: "Home", icon: Home, href: "skills" },
   { name: "GitHub", icon: Github, href: "https://github.com" },
   { name: "LinkedIn", icon: Linkedin, href: "https://linkedin.com" },
   { name: "X (Twitter)", icon: Twitter, href: "https://x.com" },
@@ -52,8 +52,7 @@ export default function StickySocialBar() {
           <Tooltip key={item.name}>
             <TooltipTrigger asChild>
               <a
-                href={item.href}
-                target="_blank"
+                href={item.href === "skills" ? `#${item.href}` : item.href}
                 className="
                   relative
                   flex items-center justify-center

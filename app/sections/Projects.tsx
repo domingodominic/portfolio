@@ -50,6 +50,16 @@ const projects = [
     website: "https://glamourease.vercel.app/",
     source: "https://glamourease.vercel.app/",
   },
+  {
+    title: "TSMusic",
+    date: "January 2023",
+    description:
+      "TSMusic is a music streaming platform that allows swifties users to discover, play, and manage their favorite songs about their favorite artist Taylor Swift.",
+    tech: ["Vanilla JS", "Tailwind CSS"],
+    image: tsmusic,
+    website: "https://domingodominic.github.io/tasMUSIC/",
+    source: "https://domingodominic.github.io/tasMUSIC/",
+  },
 ];
 
 export default function Projects() {
