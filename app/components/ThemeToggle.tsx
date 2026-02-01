@@ -8,7 +8,6 @@ const ThemeToggle = () => {
       <label
         htmlFor="themeToggle"
         className="themeToggle st-sunMoonThemeToggleBtn"
-        type="checkbox"
       >
         <input
           type="checkbox"
