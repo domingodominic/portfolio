@@ -26,14 +26,14 @@ function Hackathon() {
 
         {/* Heading */}
         <h2
-          className="text-2xl md:text-4xl font-bold mb-4"
+          className="text-2xl md:text-4xl font-bold mb-4 dark:text-white text-black"
           data-aos="fade-right"
         >
           Joining competition
         </h2>
 
         {/* Description */}
-        <p className="text-neutral-400 max-w-3xl mb-12">
+        <p className="dark:text-neutral-400 text-black max-w-3xl mb-12">
           During my time in university, I attended 1 hackathon. People from
           around the province would come together and build incredible things in
           2 days.
@@ -55,11 +55,17 @@ function Hackathon() {
 
               {/* Content */}
               <div>
-                <p className="text-sm text-neutral-400">{item.date}</p>
-                <h3 className="text-xl font-semibold mt-1">{item.title}</h3>
-                <p className="text-sm text-neutral-400">{item.location}</p>
+                <p className="text-sm dark:text-neutral-400 text-black">
+                  {item.date}
+                </p>
+                <h3 className="text-xl font-semibold mt-1 text-black dark:text-white">
+                  {item.title}
+                </h3>
+                <p className="text-sm dark:text-neutral-400 tesxt-black">
+                  {item.location}
+                </p>
 
-                <p className="text-neutral-300 mt-3 max-w-2xl">
+                <p className="dark:text-neutral-300 text-black mt-3 max-w-2xl">
                   {item.description}
                 </p>
 

@@ -56,12 +56,18 @@ export default function Certifications() {
         </span>
 
         {/* Heading */}
-        <h2 className="text-2xl md:text-4xl font-bold mb-4" data-aos="fade-in">
+        <h2
+          className="text-2xl md:text-4xl font-bold mb-4 text-black dark:text-white"
+          data-aos="fade-in"
+        >
           Professional credentials
         </h2>
 
         {/* Description */}
-        <p className="text-neutral-400 max-w-3xl mb-12" data-aos="fade-right">
+        <p
+          className="text-black dark:text-neutral-400 max-w-3xl mb-12"
+          data-aos="fade-right"
+        >
           I continuously invest in professional development to stay current with
           industry best practices and emerging technologies. These
           certifications validate my expertise and commitment to excellence.
@@ -88,11 +94,17 @@ export default function Certifications() {
 
               {/* Certificate Info */}
               <div data-aos="fade-in">
-                <h3 className="text-xl font-semibold">{cert.title}</h3>
+                <h3 className="text-xl font-semibold text-black dark:text-white">
+                  {cert.title}
+                </h3>
 
-                <p className="text-neutral-400 mt-1">{cert.date}</p>
+                <p className="dark:text-neutral-400 mt-1  text-black">
+                  {cert.date}
+                </p>
 
-                <p className="text-neutral-500 mt-2">{cert.issuer}</p>
+                <p className="text-black dark:text-neutral-500 mt-2">
+                  {cert.issuer}
+                </p>
               </div>
             </div>
           ))}

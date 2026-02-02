@@ -8,7 +8,7 @@ export default function MainLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="md:h-screen md:w-screen md:overflow-hidden bg-gray-200 dark:bg-gray-950 md:flex">
+    <div className="md:h-screen md:w-screen md:overflow-hidden bg-gray-100 dark:bg-gray-950 md:flex">
       {/* Sidebar */}
       <main className="md:flex-1 border-r p-5">
         <Hero />

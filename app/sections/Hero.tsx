@@ -18,7 +18,7 @@ export default function Hero() {
           </h1>
 
           <p
-            className="mt-4 text-lg text-muted-foreground"
+            className="mt-4 text-lg dark:text-muted-foreground"
             data-aos="fade-in"
             data-aos-delay="300"
           >
@@ -62,7 +62,7 @@ export default function Hero() {
         </header>
 
         <p
-          className="md:text-left text-center mt-4 text-sm text-muted-foreground max-w-xl"
+          className="md:text-left text-center mt-4 text-sm dark:text-muted-foreground max-w-xl"
           data-aos="fade-up"
           data-aos-delay="600"
         >
@@ -77,11 +77,21 @@ export default function Hero() {
           data-aos="zoom-in"
           data-aos-delay="800"
         >
-          <li className="px-2 py-1 bg-muted rounded-md">Next.js</li>
-          <li className="px-2 py-1 bg-muted rounded-md">TypeScript</li>
-          <li className="px-2 py-1 bg-muted rounded-md">Tailwind CSS</li>
-          <li className="px-2 py-1 bg-muted rounded-md">React</li>
-          <li className="px-2 py-1 bg-muted rounded-md">Testing</li>
+          <li className="px-2 py-1 dark:bg-muted rounded-md  bg-gray-300">
+            Next.js
+          </li>
+          <li className="px-2 py-1 dark:bg-muted rounded-md bg-gray-300">
+            TypeScript
+          </li>
+          <li className="px-2 py-1 dark:bg-muted rounded-md bg-gray-300">
+            Tailwind CSS
+          </li>
+          <li className="px-2 py-1 dark:bg-muted rounded-md bg-gray-300">
+            React
+          </li>
+          <li className="px-2 py-1 dark:bg-muted rounded-md bg-gray-300">
+            Testing
+          </li>
         </ul>
       </section>
     </section>

@@ -64,7 +64,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className=" px-6 py-24 text-white">
+    <section id="projects" className=" px-6 py-24 text-black dark:text-white">
       {/* Section header */}
       <header className="max-w-6xl mb-16">
         {/* Badge */}
@@ -76,13 +76,13 @@ export default function Projects() {
         </span>
 
         <h2
-          className=" text-2xl md:text-4xl font-bold mb-4"
+          className="text-black dark:text-white text-2xl md:text-4xl font-bold mb-4"
           data-aos="fade-right"
         >
           Check out my latest work
         </h2>
 
-        <p className="max-w-2xl text-neutral-400">
+        <p className="max-w-2xl text-black dark:text-neutral-400">
           I&apos;ve worked on a variety of projects, from simple websites to
           complex web applications. Here are a few of my favorites.
         </p>
@@ -115,11 +115,11 @@ export default function Projects() {
                     {project.title}
                   </h3>
 
-                  <p className="mb-3 text-sm text-neutral-400">
+                  <p className="mb-3 text-sm text-black dark:text-neutral-400">
                     {project.date}
                   </p>
 
-                  <p className="mb-4 text-neutral-300 leading-relaxed">
+                  <p className="mb-4 text-black dark:text-neutral-300 leading-relaxed">
                     {project.description}
                   </p>
 

@@ -60,7 +60,9 @@ export default function Skills() {
         data-aos="fade-right"
         data-aos-delay="1000"
       >
-        <h2 className="text-2xl md:text-4xl font-medium">What I can do</h2>
+        <h2 className="text-2xl md:text-4xl font-medium text-black dark:text-white">
+          What I can do
+        </h2>
       </div>
 
       {/* Grid */}
@@ -74,8 +76,10 @@ export default function Skills() {
 
             {/* Text */}
             <div>
-              <h3 className="text-lg font-semibold mb-1">{skill.title}</h3>
-              <p className="text-sm text-gray-400 leading-relaxed">
+              <h3 className="text-lg font-semibold mb-1 text-black dark:text-white">
+                {skill.title}
+              </h3>
+              <p className="text-sm text-black dark:text-gray leading-relaxed">
                 {skill.items}
               </p>
             </div>

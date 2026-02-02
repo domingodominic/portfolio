@@ -8,10 +8,12 @@ export default function Contact() {
         </span>
 
         {/* Heading */}
-        <h2 className="text-4xl font-bold mb-4">Get in Touch</h2>
+        <h2 className="text-4xl font-bold mb-4 text-black dark:text-white">
+          Get in Touch
+        </h2>
 
         {/* Description */}
-        <p className="text-neutral-400 max-w-3xl">
+        <p className="text-black dark:text-neutral-400 max-w-3xl">
           Want to chat? Just shoot me an email at{" "}
           <a
             href="mailto:domingodominicp@gmail.com"

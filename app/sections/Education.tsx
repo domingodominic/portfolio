@@ -26,7 +26,7 @@ function Education() {
           Education
         </span>
 
-        <h2 className=" text-2xl md:text-4xl font-bold mb-4">
+        <h2 className=" text-2xl md:text-4xl font-bold mb-4 text-black dark:text-white">
           Academic background
         </h2>
       </header>
@@ -61,7 +61,9 @@ function Education() {
                     <p className=" ">{item.degree}</p>
                   </div>
                 </div>
-                <p className="text-sm text-neutral-400">{item.period}</p>
+                <p className="text-sm text-black dark:text-neutral-400">
+                  {item.period}
+                </p>
               </CardContent>
             </Card>
           </article>
