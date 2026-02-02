@@ -9,6 +9,13 @@ const hackathons = [
     description:
       "We developed system for early detection of natural disasters using real-time data analysis and arduino.  ",
     awards: ["Hackathon 4th place", "Kahanga-Hackathon Solution"],
+  },  {
+    date: "February, 2025",
+    title: "Yoonet-Tech Folks",
+    location: "Balanga City, Bataan",
+    description:
+      "We developed system for students to enhance their skills in Programming by incorporating Open AI to practice their logic ability.  ",
+    awards: ["TechFolk 2nd place", "Best in Idea Awardee"],
   },
 ];
 
