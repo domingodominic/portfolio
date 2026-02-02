@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import StickySocialBar from "./components/StickySocialBar";
 import AOSProvider from "./components/AOSProvider";
+import StickyNavItems from "./hooks/useActiveNavItems";
 
 export const metadata: Metadata = {
   title: "Your App",
@@ -31,7 +32,8 @@ export default function RootLayout({
       >
         <AOSProvider />
         {children}
-        <StickySocialBar />
+        <StickyNavItems />
+        {/* <StickySocialBar /> */}
       </body>
     </html>
   );
