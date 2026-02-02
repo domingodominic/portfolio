@@ -79,7 +79,7 @@ export default function Skills() {
               <h3 className="text-lg font-semibold mb-1 text-black dark:text-white">
                 {skill.title}
               </h3>
-              <p className="text-sm text-black dark:text-gray leading-relaxed">
+              <p className="text-sm text-black dark:text-white leading-relaxed">
                 {skill.items}
               </p>
             </div>
